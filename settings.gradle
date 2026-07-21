@@ -13,11 +13,4 @@ pluginManagement {
     }
 }
 
-repositories {
-    maven {
-        name = 'Mojang'
-        url = 'https://libraries.minecraft.net/'
-    }
-}
-
 rootProject.name = 'hardcoreworldmod'
