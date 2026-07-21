@@ -8,8 +8,15 @@ pluginManagement {
             name = 'Fabric Snapshots'
             url = 'https://maven.fabricmc.net/repository/snapshots/'
         }
-        mavenCentral()
         gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+repositories {
+    maven {
+        name = 'Mojang'
+        url = 'https://libraries.minecraft.net/'
     }
 }
 
